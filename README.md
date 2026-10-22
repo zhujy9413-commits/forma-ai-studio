@@ -1,20 +1,37 @@
 # Forma 造物 · v2.1 交付修订版
 
+**源码公开 · 仅限非商业使用 · 可修改和分享 · 须保留版权与许可声明**
+
+本项目使用 [Forma 非商业源码使用许可 1.0](LICENSE)，不授予商业使用权。图片与视频另见 [素材说明](NOTICE.md)。
+
 面向图像与视频内容创作者的交互 Demo，包含电商素材和批量短剧两条工作流，以及产品、交互、模型评测和并发任务四份文档。
 
 本版本使用阿里云百炼 API 推理，本机负责界面、任务代理、存储与视频合成。它是可交互、可连接真实模型的 Demo；原测试题的“全本地推理”约束已按项目决定改为 API。
+
+## 下载与本机部署
+
+可在 [Releases](https://github.com/zhujy9413-commits/forma-ai-studio/releases) 下载版本包，或使用：
+
+```sh
+git clone https://github.com/zhujy9413-commits/forma-ai-studio.git
+cd forma-ai-studio
+```
+
+以下是本机部署方式；当前后端只监听本机，不提供多人公网服务。
 
 ## 启动
 
 需要本机安装 Python 3，并使用支持 Canvas、MediaRecorder 的浏览器。
 
 1. 下载或克隆仓库。
-2. 如需真实生成，将 `.env.example` 复制为 `.env`，在本机填写百炼 API Key。密钥、域名与模型权限应属于相同地域。
+2. 如需真实生成，将 `.env.example` 复制为 `.env`，在本机填写百炼 API Key。macOS／Linux 可运行 `cp .env.example .env`；Windows PowerShell 可运行 `Copy-Item .env.example .env`。密钥、域名与模型权限应属于相同地域。
 3. macOS 可双击 `打开工作台.command`；也可在项目目录运行：
 
    ```sh
    python3 启动工作台.py
    ```
+
+   Windows 若使用 Python Launcher，可运行 `py 启动工作台.py`。
 
 4. 打开 <http://127.0.0.1:18767/forma/>。不填写密钥也可载入配套实测案例、播放缓存素材；新模型请求需要有效配置，并可能产生费用。
 
@@ -57,3 +74,16 @@
 实测中首帧重置和服饰跳变得到改善，但第二镜男子移动仍超过描述，窗面仍有淡反射；不能据此承诺任意故事稳定自动出片、人物一致性或物理关系完全正确。请对结果进行内容检查，必要时只重做受影响镜头。
 
 续镜需要页面保持打开以提取尾帧和提交后镜，本地合成需页面位于前台。失败或提交未知时不自动重复付费请求；取消本地后续不保证撤回供应商已受理的运算与费用。
+
+## 参与、更新与许可
+
+本项目由 `zhujy9413-commits` 主导，与 Codex 协作开发。欢迎 Fork 并通过 Pull Request 向 `main` 提交改进；维护者会查看差异及验证结果，决定是否合并。具体步骤和不调用模型的检查见 [贡献指南](CONTRIBUTING.md)。
+
+- [更新记录](CHANGELOG.md)：查看各版本变化与限制。
+- [Releases](https://github.com/zhujy9413-commits/forma-ai-studio/releases)：下载带版本号的发布包。
+- [素材来源与许可范围](NOTICE.md)：AI 生成媒体单独说明，保留来源与标识。
+- [运行与信息安全](SECURITY.md)：密钥处理与本机部署边界。
+
+代码、SVG 与文档适用 [Forma 非商业源码使用许可 1.0](LICENSE)，允许非商业使用、修改和分享，要求保留版权与许可声明。不得直接用于商业经营、付费交付、收费或广告变现的服务；商业使用须另行取得相应权利人书面授权。这是源码公开项目，不是 MIT／GPL 等允许商业使用的标准开源项目。
+
+图片、视频及其派生演示媒体适用 NOTICE 中的单独说明。公开代码不包括维护者的 API 账号、额度或私人运行数据。

@@ -1,0 +1,37 @@
+Forma 非商业源码使用许可 1.0
+Forma Non-Commercial Source License 1.0
+
+Copyright (c) 2026 zhujy9413-commits and contributors
+
+本项目采用专用的非商业源码使用许可，不是 MIT、GPL 或 OSI 认可的开源许可证。
+
+1. 许可范围
+
+在许可人依法有权授予的范围内，获得本软件及相关原创文档的任何人，可为非商业目的使用、运行、复制、研究、修改，以及分发原版或修改版。本许可适用于项目原创程序代码、SVG 资源及文档；NOTICE.md 单独说明的 AI 生成媒体和第三方内容不因此获得额外授权。
+
+非商业目的指主要目的不是获取商业利益或金钱报酬的个人学习、研究、实验、测试、非商业教学演示及爱好项目。为上述用途支付设备或模型 API 的正常成本，本身不将该用途变成商业用途。
+
+2. 不授予商业使用权
+
+本许可不允许为商业目的使用、复制、修改、部署、提供服务或分发本软件及其衍生版本。商业用途包括但不限于出售或出租本软件、提供收费或广告变现的在线服务、作为付费客户项目的交付物，以及用于企业实际生产经营的工具或业务系统。
+
+如需商业使用，须另行取得相应权利人的明确书面授权。本项目没有通过本许可预先授予此类授权。
+
+3. 保留声明与分发条件
+
+复制或分发本软件的全部或实质部分时，必须保留上述版权声明、本许可全文以及适用的 NOTICE.md 来源说明。修改版应显著标注已修改的事实，并不得冒充维护者的原始版本或官方发布。
+
+分发修改版时，不得通过更换许可或删除声明而取消本许可对相关原始代码及其衍生部分的非商业限制。你可以保留自己原创修改的版权，但对原始代码的使用仍受本许可约束。本许可不要求你公开未分发的私人修改。
+
+4. 其他内容与贡献
+
+本许可不授予任何第三方服务账号、模型权重、商标、肖像、第三方作品或其他并非许可人有权授予的权利，也不限制法律另行赋予你的权利。
+
+提交贡献并不自动转让贡献者版权；被接受的贡献按本许可分发，贡献者须有权作出相应许可。维护者不能仅凭本许可代表其他权利人授予其商业使用权。
+
+5. 不提供保证与责任限制
+
+在适用法律允许的最大范围内，本软件按现状提供，不附带对适销性、特定用途适用性、无侵权、模型结果准确性、可用性或其他事项的明示或默示保证。因使用本软件、模型服务或输出内容引起的费用、内容审核与部署责任由使用者承担。在适用法律允许的最大范围内，许可人及贡献者不对使用或无法使用本软件所产生的损失承担责任。
+
+English summary (the Chinese terms above govern):
+This source-available project permits noncommercial use, copying, modification and redistribution with copyright, license and source notices preserved. Commercial use is not licensed. Distributed modifications must identify their changes and may not remove the noncommercial restriction from the original software and its derivatives. AI media and third-party material are separately described in NOTICE.md. No warranty is provided to the maximum extent allowed by applicable law.

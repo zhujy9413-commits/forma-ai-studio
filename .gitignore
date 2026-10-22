@@ -3,3 +3,11 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Personal exports and local editor data
+.env.*
+!.env.example
+*项目备份*.json
+Forma-项目备份.json
+.vscode/
+.idea/
