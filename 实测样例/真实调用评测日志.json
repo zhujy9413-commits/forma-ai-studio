@@ -1,0 +1,146 @@
+{
+  "notice": "4个预置测试任务、4次模型POST、5条终态事件。分镜重新校验原响应未新增POST；费用以账单为准。",
+  "records": [
+    {
+      "id": "smoke-text-20261022-a",
+      "kind": "commerce_plan",
+      "model": "deepseek-v4-pro",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "done",
+      "created": 1792656241491,
+      "started": 1792656241530,
+      "finished": 1792656246497,
+      "remote_id": null,
+      "provider_request_id": "chatcmpl-484c4786-e2d6-9aef-8b40-d2daa467122b",
+      "usage": {
+        "prompt_tokens": 144,
+        "completion_tokens": 81,
+        "total_tokens": 225,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "error_code": null,
+      "elapsed_ms": 4967,
+      "schema_valid": true,
+      "queue_ms": 39,
+      "submitted_to_finished_ms": 5006,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    },
+    {
+      "id": "smoke-image-20261022-a",
+      "kind": "image",
+      "model": "wan2.6-image",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "done",
+      "created": 1792656389410,
+      "started": 1792656389496,
+      "finished": 1792656411656,
+      "remote_id": null,
+      "provider_request_id": "13c9b9ee-621c-9e97-8bdf-903260c4b160",
+      "usage": {
+        "image_count": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "size": "1280*1280",
+        "total_tokens": 0
+      },
+      "error_code": null,
+      "elapsed_ms": 22160,
+      "schema_valid": false,
+      "queue_ms": 86,
+      "submitted_to_finished_ms": 22246,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    },
+    {
+      "id": "smoke-video-20261022-a",
+      "kind": "video",
+      "model": "wan3.0-video",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "done",
+      "created": 1792656413504,
+      "started": 1792656413725,
+      "finished": 1792656485176,
+      "remote_id": "50839a17-dca9-465b-8d7b-974e6c4afd0e",
+      "provider_request_id": "476e711b-e05e-9baa-9817-6e84e50db07a",
+      "usage": {
+        "duration": 2,
+        "input_video_duration": 0,
+        "output_video_duration": 2,
+        "fps": 30,
+        "video_count": 1,
+        "SR": 720,
+        "ratio": "1:1"
+      },
+      "error_code": null,
+      "elapsed_ms": 71451,
+      "schema_valid": false,
+      "queue_ms": 221,
+      "submitted_to_finished_ms": 71672,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    },
+    {
+      "id": "smoke-storyboard-20261022-a",
+      "kind": "storyboard",
+      "model": "deepseek-v4-pro",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "failed",
+      "created": 1792656795604,
+      "started": 1792656795942,
+      "finished": 1792656810767,
+      "remote_id": null,
+      "provider_request_id": "chatcmpl-7f17c33e-bb65-9f53-b4ea-a1474b2f9532",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 484,
+        "total_tokens": 723,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "error_code": "SCHEMA_INVALID",
+      "elapsed_ms": 14825,
+      "schema_valid": false,
+      "queue_ms": 338,
+      "submitted_to_finished_ms": 15163,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    },
+    {
+      "id": "smoke-storyboard-20261022-a",
+      "kind": "storyboard",
+      "model": "deepseek-v4-pro",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "done",
+      "created": 1792656795604,
+      "started": 1792656795942,
+      "finished": 1792656810767,
+      "remote_id": null,
+      "provider_request_id": "chatcmpl-7f17c33e-bb65-9f53-b4ea-a1474b2f9532",
+      "usage": {
+        "prompt_tokens": 239,
+        "completion_tokens": 484,
+        "total_tokens": 723,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "error_code": null,
+      "revalidated_at": 1792656988933,
+      "elapsed_ms": 14825,
+      "schema_valid": true,
+      "queue_ms": 338,
+      "submitted_to_finished_ms": 15163,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    }
+  ]
+}

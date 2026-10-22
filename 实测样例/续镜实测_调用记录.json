@@ -1,0 +1,54 @@
+{
+  "scope": "user-approved 2 videos; no new image calls",
+  "new_provider_posts": 2,
+  "new_image_posts": 0,
+  "baseline_job_count": 25,
+  "current_job_count": 27,
+  "records": [
+    {
+      "id": "3c728d79-cae3-42bc-aa53-25136f450f95",
+      "model": "wan3.0-video",
+      "status": "done",
+      "duration_requested": 3,
+      "elapsed_ms": 70891,
+      "provider_post_count": 1,
+      "source_asset_id": "52a43369-74cb-40d9-86f9-dbfff28704a8-0",
+      "file": "续镜实测_镜头1.mp4",
+      "bytes": 2228240,
+      "sha256": "da0e65e0ad9b785260022f94255a2021d6b225462e45fb312b0ac15e08766a43"
+    },
+    {
+      "id": "94ecb532-c492-4306-a722-a461ccbb8bd9",
+      "model": "wan3.0-video",
+      "status": "done",
+      "duration_requested": 3,
+      "elapsed_ms": 81966,
+      "provider_post_count": 1,
+      "source_asset_id": "fbe82395-ecc3-4a93-94a7-c63e80176545",
+      "file": "续镜实测_镜头2.mp4",
+      "bytes": 2406378,
+      "sha256": "4f09fe6dbf8964ee48c1462a165d636f23648a836c3598275e564a3f4b487efe",
+      "tail_frame_input": "续镜实测_第二镜实际输入尾帧.jpg",
+      "tail_input_sha256": "a8c6464df12b733ed9b75e566e967644919ed582e2883bea0d9dcb738d893bc0"
+    }
+  ],
+  "quality_status": "limited improvement: no initial-pose reset; same clothing; excess male movement and faint window reflection remain",
+  "decoded_videos": [
+    {
+      "duration": 3,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "duration": 3,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "tail_capture_time": 2.966666666666667,
+  "combined_export": {
+    "file": "续镜实测_两镜头成片.webm",
+    "bytes": 1245954,
+    "encoding": "browser MediaRecorder; exact duration/seek not validated"
+  }
+}

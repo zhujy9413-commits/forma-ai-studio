@@ -1,0 +1,93 @@
+{
+  "scope": "v2.1预置修订案例，1次图片+2次视频POST；不包含复制的16个历史任务，不等于全场景质量评测。",
+  "records": [
+    {
+      "id": "52a43369-74cb-40d9-86f9-dbfff28704a8",
+      "kind": "image",
+      "model": "wan2.6-image",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "done",
+      "created": 1792661046496,
+      "started": 1792661046840,
+      "finished": 1792661059930,
+      "remote_id": null,
+      "provider_request_id": "d5d7b0c8-ff24-940d-a272-7c5a1598a3c9",
+      "usage": {
+        "image_count": 1,
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "size": "1280*720",
+        "total_tokens": 0
+      },
+      "error_code": null,
+      "revalidated_at": null,
+      "elapsed_ms": 13090,
+      "schema_valid": false,
+      "queue_ms": 344,
+      "submitted_to_finished_ms": 13434,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    },
+    {
+      "id": "25cfc4f3-9f1b-45e0-8fa7-bc3138e8eae3",
+      "kind": "video",
+      "model": "wan3.0-video",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "done",
+      "created": 1792661216935,
+      "started": 1792661217066,
+      "finished": 1792661284287,
+      "remote_id": "88136493-c0a9-484c-8e8c-5da359ffb3b4",
+      "provider_request_id": "e7b4958d-890a-90ff-b8e4-abd360a0a588",
+      "usage": {
+        "duration": 3,
+        "input_video_duration": 0,
+        "output_video_duration": 3,
+        "fps": 30,
+        "video_count": 1,
+        "SR": 720,
+        "ratio": "16:9"
+      },
+      "error_code": null,
+      "revalidated_at": null,
+      "elapsed_ms": 67221,
+      "schema_valid": false,
+      "queue_ms": 131,
+      "submitted_to_finished_ms": 67352,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    },
+    {
+      "id": "2f316584-fdfd-4770-8fb4-befd48dad8ac",
+      "kind": "video",
+      "model": "wan3.0-video",
+      "host": "https://dashscope.aliyuncs.com",
+      "attempt": 0,
+      "status": "done",
+      "created": 1792661392469,
+      "started": 1792661392553,
+      "finished": 1792661463529,
+      "remote_id": "ad7d947c-2612-42a6-a188-304cde7f1e0c",
+      "provider_request_id": "5234aaa1-ef0c-910c-bf2b-6ca2e262ef22",
+      "usage": {
+        "duration": 3,
+        "input_video_duration": 0,
+        "output_video_duration": 3,
+        "fps": 30,
+        "video_count": 1,
+        "SR": 720,
+        "ratio": "16:9"
+      },
+      "error_code": null,
+      "revalidated_at": null,
+      "elapsed_ms": 70976,
+      "schema_valid": false,
+      "queue_ms": 84,
+      "submitted_to_finished_ms": 71060,
+      "provider_post_count": 1,
+      "notice": "elapsed_ms为首次调度至结束含下载/中断等待；submitted_to_finished_ms含排队，不是纯推理时延。费用以账单为准。"
+    }
+  ]
+}

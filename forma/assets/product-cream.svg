@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="800" viewBox="0 0 600 800" role="img" aria-label="三色SKU示意保温杯">
+<defs><linearGradient id="body"><stop stop-color="#e8e3d7"/><stop offset=".35" stop-color="#e8e3d7"/><stop offset=".7" stop-color="#e8e3d7"/><stop offset="1" stop-color="#e8e3d7"/></linearGradient><linearGradient id="light"><stop stop-color="#fff" stop-opacity=".33"/><stop offset=".34" stop-color="#fff" stop-opacity=".1"/><stop offset=".8" stop-color="#000" stop-opacity=".1"/><stop offset="1" stop-color="#000" stop-opacity=".2"/></linearGradient></defs>
+<path d="M205 210 C205 190 220 178 220 157 L380 157 C380 178 395 190 395 210 L395 662 Q395 710 300 713 Q205 710 205 662 Z" fill="url(#body)"/>
+<path d="M205 210 C205 190 220 178 220 157 L380 157 C380 178 395 190 395 210 L395 662 Q395 710 300 713 Q205 710 205 662 Z" fill="url(#light)"/>
+<rect x="217" y="84" width="166" height="90" rx="20" fill="#e8e3d7"/><rect x="217" y="84" width="166" height="90" rx="20" fill="url(#light)"/>
+<path d="M220 166 Q300 177 380 166" fill="none" stroke="#454846" stroke-opacity=".45" stroke-width="3"/>
+</svg>

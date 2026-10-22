@@ -1,0 +1,53 @@
+{
+  "title": "雨夜追音",
+  "shots": [
+    {
+      "episode": 1,
+      "title": "雨夜讯息",
+      "prompt": "深夜街道，雨丝密集，林予低头看手机，屏幕亮光映在她苍白的脸上，眉头紧锁",
+      "subtitle": "姐姐：来老地方见我",
+      "role": "lin",
+      "duration": 5
+    },
+    {
+      "episode": 1,
+      "title": "步入旧楼",
+      "prompt": "林予推开生锈的铁门，走进昏暗公寓楼道，脚步声在空荡空间回响，米色风衣下摆沾着雨水",
+      "subtitle": "",
+      "role": "lin",
+      "duration": 4
+    },
+    {
+      "episode": 1,
+      "title": "倒影惊现",
+      "prompt": "林予停在走廊尽头窗边，窗户玻璃的倒影中，一个黑色夹克的人影无声站在她身后",
+      "subtitle": "",
+      "role": "lin",
+      "duration": 6
+    },
+    {
+      "episode": 2,
+      "title": "对峙时刻",
+      "prompt": "陈默从夹克内袋取出一支录音笔，缓缓递向林予，眼神深邃，雨水从发梢滴落",
+      "subtitle": "陈默：你姐姐留下的",
+      "role": "chen",
+      "duration": 5
+    },
+    {
+      "episode": 2,
+      "title": "线索入耳",
+      "prompt": "林予戴上耳机，双眼紧闭，随后猛地睁眼，瞳孔中闪过震惊与决然",
+      "subtitle": "姐姐的声音：码头仓库，17号",
+      "role": "lin",
+      "duration": 6
+    },
+    {
+      "episode": 2,
+      "title": "共赴雨夜",
+      "prompt": "林予和陈默并肩走出公寓大门，背影融入滂沱大雨之中，街灯拉长他们的影子",
+      "subtitle": "",
+      "role": "lin",
+      "duration": 5
+    }
+  ]
+}

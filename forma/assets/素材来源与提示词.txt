@@ -1,0 +1,7 @@
+Built-in image_gen tool. These assets are pre-generated demonstration materials and do not represent product runtime cloud inference.
+
+Product prompt
+Use case: product-mockup. Asset type: reusable product cutout for an interactive ecommerce creation prototype. Create a photorealistic full-body product photograph of a single minimal cream-white insulated bottle / travel thermos, cylindrical gently tapered shape, matte powder-coated metal, smoothly rounded shoulders, matching screw-top lid, no handle. Three-quarter front angle, upright, centered, entire bottle with generous margins. Soft realistic studio lighting with subtle form shading. Genuine transparent background and clean antialiased product edges, no ground plane. No text, no logo, no brand, no watermark, no additional objects.
+
+Drama prompt
+Use case: photorealistic-natural. Asset type: wide cinematic keyframe for a fictional urban suspense short drama titled Unsent Message, but no visible text. An East Asian adult woman in her early thirties, short black bob hair, dark detective coat, looking thoughtfully at a smartphone beside a rain-streaked apartment window at night; a distant adult East Asian man is a soft out-of-focus silhouette in the hallway background. Cinematic realistic film still, landscape 16:9 composition, cool blue city light outside and restrained warm amber interior light, subtle grain, authentic skin texture, restrained suspense, elegant photographic composition. No text, no logos, no watermark, no gore.
